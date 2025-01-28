@@ -4,3 +4,8 @@ function incrementHomeScore(points) {
     currentScore += points;
     homeScoreElement.textContent = currentScore;
 }
+
+function reset() {
+    const homeScoreElement = document.getElementById("home-score");
+    homeScoreElement.textContent = 0;
+}
